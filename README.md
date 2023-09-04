@@ -25,3 +25,14 @@ First need to create and configure the docker-compose.yml file on remote server 
 
 - `docker build -t app-name .`
 - `docker run -d --restart=unless-stopped --network network-name --name app-name app-name`
+
+## Blender export:
+
+- Format .glTF Binary (.glb)
+- Mesh: Apply Modifiers
+- Material: No Export
+- Compression: On
+
+## Additional Compression (https://gltf.report/):
+
+- compression: Draco
